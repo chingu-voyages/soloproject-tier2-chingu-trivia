@@ -1,12 +1,12 @@
-# Chingu Solo Project - Tier 1 - Chingu Trivia
+# Chingu Solo Project - Tier 2 - Chingu Trivia
 
 ## Overview 
 
-This project is a great opportunity to develop a clean and modern webpage. The trivia app will be completed across tiers, with each tier adding a new level of complexity. You are currently on the **Tier 1 repo**. You'll be responsible for coding the **HTML**, **CSS**, and **JavaScript** to get the structure, styling, and some basic functionality up and running.
+This project is a great opportunity to develop a clean and modern webpage. The trivia app will be completed across tiers, with each tier adding a new level of complexity. You are currently on the **Tier 2 repo**. You'll be responsible for coding the **HTML**, **CSS**, and **JavaScript** to get the structure, styling, and some basic functionality up and running.
 
-As you add skills to your developer toolbag you'll be able to come back to this project and add in the Tiers 2 and 3 features. Ultimately you'll have a great portfolio piece, and will have implemented a number of common and in-demand features.
+As you add skills to your developer toolbag you'll be able to come back to this project and add in the Tiers 3 features. Ultimately you'll have a great portfolio piece, and will have implemented a number of common and in-demand features.
 
-**You May NOT Use Libraries and/or Frameworks for Tiers 1**
+**You May Use Libraries and/or Frameworks**
 
 ## Instructions
 
@@ -29,9 +29,10 @@ General instructions for all Pre-Work Projects can also be found in the Chingu V
 
 *Functionality*
 
-- [ ] The quiz should span at least 10 questions. Feel free to add more if you would like.
-- [ ] The page should not reload! Hardcode all of your questions/choices in your JS file and use DOM manipulation to insert text as you go
-- [ ] An array of questions/choices can be found in the `assets` folder of this repo *(filename is 'quizQuestions.js')*; feel free to copy/paste the array in your JS file
+- [ ] The quiz should span all questions in the question api (see below for api information)
+- [ ] The page should not reload!
+- [ ] Questions are received from the api at the following address: *https://johnmeade-webdev.github.io/chingu_quiz_api/trial.json*
+- [ ] The api is static and does not take in parameters or require a key, simply make your fetch to the above address
 
 *Upon Load:*
 
